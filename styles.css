@@ -1,0 +1,54 @@
+@import"https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #FBDFDB;
+}
+
+p {
+    color: #111;
+    border-radius: 15px;
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #e77d7d;
+    width: 1903px;
+    height: 62px;
+    opacity: 100%;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-radius: 15px 15px;
+}
+
+.personagem {
+    position: absolute;
+    width: 300px;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-radius: 16px;
+}
+
+h1 {
+    padding-right: 250px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#herois {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 250px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
