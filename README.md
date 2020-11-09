@@ -2,7 +2,8 @@
 Consumindo API da Marvel
 
 
-##Credenciais utilizadas para autenticação
+## Credenciais utilizadas para autenticação
+
 Chave para acesso da API https://developer.marvel.com/
 
 URL da requisição utilizada 'https://gateway.marvel.com:443/v1/public/characters?ts=1&apikey=ea9495063253fe49b5e7b64a77bbf953&hash=d18c1b5d5fa336ca652750a8bb2e3f2d}&nameStartsWith=iron man'
