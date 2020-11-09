@@ -23,7 +23,7 @@ Consumindo API da Marvel
  ## Descrição
  
  ### Back-end
-   Para a criação do back-end foram utilizados os frameworks: axios, nodemon, express. Estes determinados frameworks foram uteis para tratar a requisição.
+   <p>Para a criação do back-end foram utilizados os frameworks: axios, nodemon, express. Estes determinados frameworks foram uteis para tratar a requisição.</p>
    
   ### Front-end
    Para a criação do front-end foi criado o layout da aplicação, estilizando os dados retornados da requisição com o CSS.
