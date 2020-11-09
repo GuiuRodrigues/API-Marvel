@@ -25,10 +25,8 @@ Consumindo API da Marvel
  ### Back-end
    - Para a criação do back-end foram utilizados os frameworks: axios, nodemon, express. Estes determinados frameworks foram uteis para tratar a requisição.</p>
    
- <h3>Front-end</h3>
+ ### Front-end
    - Para a criação do front-end foi criado o layout da aplicação, estilizando os dados retornados da requisição com o CSS.
      
   
-Foi criado no back-end um servidor com os frameworks axios, nodemon, express para a criação da requisição, no app.js foi realizado a conexão do back-end com o front-end.
-No front-end foi criado o layout da aplicação.
-E para a estilização da aplicação foi utilizado CSS usando uma grid para apresentação dos personagens juntamente com o seu nome.
+
