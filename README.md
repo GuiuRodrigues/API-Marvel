@@ -14,8 +14,12 @@ Consumindo API da Marvel
 
 - MD5 = d18c1b5d5fa336ca652750a8bb2e3f2d
 
-
-
+## Tecnologias utilizadas
+ - JavaScript;
+ - Node.js;
+ - HTML;
+ - CSS.
+ 
 Foi criado no back-end um servidor com os frameworks axios, nodemon, express para a criação da request, no app.js foi realizado a conexão do back-end com o front-end.
 No front-end foi criado o layout da aplicação.
 E para a estilização da aplicação foi utilizado CSS usando uma grid para apresentação dos personagens juntamente com o seu nome.
