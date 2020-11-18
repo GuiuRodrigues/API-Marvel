@@ -1,29 +1,29 @@
 {
-  "name": "api-marvel",
-  "version": "1.0.0",
-  "description": "Consumindo API da Marvel",
-  "main": "index.js",
-  "scripts": {
-    "start": "nodemon server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MarcosGuilherm/API-Marvel.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/MarcosGuilherm/API-Marvel/issues"
-  },
-  "homepage": "https://github.com/MarcosGuilherm/API-Marvel#readme",
-  "dependencies": {
-    "axios": "^0.21.0",
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "nodemon": "^2.0.6"
-  },
-  "devDependencies": {
-    "eslint": "^7.13.0"
-  }
+    "name": "api-marvel",
+    "version": "1.0.0",
+    "description": "Consumindo API da Marvel",
+    "main": "index.html",
+    "scripts": {
+        "start": "nodemon server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MarcosGuilherm/API-Marvel.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/MarcosGuilherm/API-Marvel/issues"
+    },
+    "homepage": "https://github.com/MarcosGuilherm/API-Marvel#readme",
+    "dependencies": {
+        "axios": "^0.21.0",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "nodemon": "^2.0.6"
+    },
+    "devDependencies": {
+        "eslint": "^7.13.0"
+    }
 }

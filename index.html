@@ -3,16 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/public/styles.css">
     <title>API-Marvel</title>
 </head>
+<header>
+    <div id="title">
+        <h2>Personagens - Marvel</h2>
+    </div>
+    <div id="divBusca">
+        <input type="search" name="personagem" class="busca" id="txtBusca" placeholder="Buscar..." />
+        <i id="btn" class="material-icons">search</i>
+
+    </div>
+
+
+
+
+
+
+
+</header>
+
 
 <body>
-    <div class="head"></div>
-    <p>Personagens</p>
+
     <div id="herois"></div>
+    <div class="footer">
+        <p>“Há um super-herói em todos nós, só precisamos da coragem para colocar acapa.” Clark Kent / Kal-El (Superman)</p>
+    </div>
+
+    <div class="modal-overlay">
+        <div class="modal">
+            <div class="close-modal">
+                <p> Fechar modal</p>
+            </div>
+            <img src="" alt="">
+            <div class="descricao">
+                <p id="nome_receita"></p>
+                <p id="chef_receita"></p>
+            </div>
+        </div>
+    </div>
+
 </body>
 
 </html>
 
-<script src="/app.js"></script>
+<script src="/public/app.js"></script>

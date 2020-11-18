@@ -10,8 +10,11 @@ app.get('/', async(req, res) => {
     const ts = '1'
     const hash = 'd18c1b5d5fa336ca652750a8bb2e3f2d'
 
+    /* ===QUERY===*/
+    const nameHero = 'spider'
+
     try {
-        const { data } = await axios(`https://gateway.marvel.com:443/v1/public/characters?ts=${ts}&apikey=${apikey}&hash=${hash}&nameStartsWith=iron man`)
+        const { data } = await axios(`https://gateway.marvel.com:443/v1/public/characters?ts=${ts}&apikey=${apikey}&hash=${hash}&nameStartsWith=${nameHero}`)
 
         return res.json(data)
     } catch (error) {

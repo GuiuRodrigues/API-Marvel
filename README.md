@@ -2,17 +2,31 @@
 Consumindo API da Marvel
 
 
-Chave para acesso da API https://developer.marvel.com/
+## Credenciais utilizadas para autenticação
 
-URL da requisição utilizada 'https://gateway.marvel.com:443/v1/public/characters?ts=1&apikey=ea9495063253fe49b5e7b64a77bbf953&hash=d18c1b5d5fa336ca652750a8bb2e3f2d}&nameStartsWith=iron man'
+- Chave para acesso da API https://developer.marvel.com/;
 
-TimeStape = 1
+- URL da requisição utilizada 'https://gateway.marvel.com:443/v1/public/characters?ts=1&apikey=ea9495063253fe49b5e7b64a77bbf953&hash=d18c1b5d5fa336ca652750a8bb2e3f2d}&nameStartsWith=iron man';
 
-Public Key = ea9495063253fe49b5e7b64a77bbf953
+- TimeStape = 1;
 
-MD5 = d18c1b5d5fa336ca652750a8bb2e3f2d
+- Public Key = ea9495063253fe49b5e7b64a77bbf953;
 
+- MD5 = d18c1b5d5fa336ca652750a8bb2e3f2d.
 
-Foi criado no back-end um servidor com os frameworks axios, nodemon, express para a criação da request, no app.js foi realizado a conexão do back-end com o front-end.
-No front-end foi criado o layout da aplicação.
-E para a estilização da aplicação foi utilizado CSS usando uma grid para apresentação dos personagens juntamente com o seu nome.
+## Tecnologias utilizadas
+ - JavaScript;
+ - Node.js;
+ - HTML;
+ - CSS.
+ 
+ ## Descrição
+ 
+ ### Back-end
+   - Para a criação do back-end foram utilizados os frameworks: axios, nodemon, express. Estes determinados frameworks foram uteis para tratar a requisição.</p>
+   
+ ### Front-end
+   - Para a criação do front-end foi criado o layout da aplicação, estilizando os dados retornados da requisição com o CSS.
+     
+  
+
